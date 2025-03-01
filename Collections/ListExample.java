@@ -11,12 +11,17 @@ public class ListExample {
 //            System.out.println(s);
 
         List<String> stringList = new ArrayList<>();
-        stringList.add("Budzik");
-        stringList.add("Tomasz");
-        stringList.add("Tatar");
-        stringList.add("Dąb");
+//        stringList.add("Budzik");
+//        stringList.add("Tomasz");
+//        stringList.add("Tatar");
+//        stringList.add("Dąb");
+//
+//        System.out.println(stringList.size());
+        for (int i = 0; i <20; i++) {
+            stringList.add("string" + i);
 
-        System.out.println(stringList.size());
+        }
+        System.out.println(stringList);
         }
 
 
